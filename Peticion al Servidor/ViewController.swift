@@ -105,7 +105,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 
                     self.labelPortada.text = dic4 as? String
                     
-                    
+                    self.labelPortada.text = "No Hay portada"
+
                     
                 }
                 
