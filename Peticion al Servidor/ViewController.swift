@@ -105,7 +105,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 
                     self.labelPortada.text = dic4 as? String
                     
-                    self.labelPortada.text = "No Hay portada"
 
                     
                 }
@@ -116,6 +115,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     //recargo la data del collectionView de manera asincrona
                     dispatch_async(dispatch_get_main_queue(), {
                         self.labelTitulo.text = dic3
+                        self.labelPortada.text = "No Hay portada"
 
                     })
                 
